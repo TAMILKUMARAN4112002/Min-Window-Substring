@@ -6,7 +6,6 @@ public class Main{
          String str = sc.nextLine();
          String str1 = sc.nextLine();
          int count = str1.length();
-         boolean tag=false;
          for(int size=count;size<=str.length();size++){
              for(int i=0;i<=str.length()-size;i++){
                  String t = "";
@@ -28,9 +27,7 @@ public class Main{
                  }
              }
          }
-         if(tag){
-             System.out.print("No Substring");
-         }
+         
 
     }
 }
